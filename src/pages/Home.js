@@ -1,10 +1,10 @@
 import React from 'react';
-import Icons from 're'
+// import Icons from 're'
 
 function Home () {
   return (
     <>
-
+Home
     </>
   );
 }
