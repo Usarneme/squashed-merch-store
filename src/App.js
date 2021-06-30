@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 // Components
 import Navbar from './components/Navbar';
-import Header from './components/Header';
 import Footer from './components/Footer';
 // Pages
 import Home from './pages/Home';
@@ -35,7 +34,7 @@ class App extends Component {
     } else if (this.state.currentPage === 'womens') {
       currentlyVisibleState = <Womens />
     } else {
-      currentlyVisibleState = <Home />
+      currentlyVisibleState = <Home navigateTo={this.navigateTo} />
     }
 
     return (

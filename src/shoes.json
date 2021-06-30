@@ -1,5 +1,104 @@
 {
-  "mens": [],
-  "womens": [],
-  "kids": []
+  "mens": [
+    {
+      "name": "Cloudfeel Cole Haan",
+      "price": 106,
+      "imgUrl": "https://m.media-amazon.com/images/I/71-fMEjTzyL._AC_SR255,340_.jpg",
+      "sizes": [7,13]
+    },
+    {
+      "name": "Florsheim Wingtip Oxford",
+      "price": 230,
+      "imgUrl": "https://m.media-amazon.com/images/I/81WBFLwK9ML._AC_SR255,340_.jpg",
+      "sizes": [6,14]
+    },
+    {
+      "name": "Cloudfeel Cole Haan",
+      "price": 106,
+      "imgUrl": "https://m.media-amazon.com/images/I/71-fMEjTzyL._AC_SR255,340_.jpg",
+      "sizes": [7,13]
+    }
+  ],
+  "womens": [
+    {
+      "name": "Dansko",
+      "price": 135,
+      "imgUrl": "https://m.media-amazon.com/images/I/711NXmiCpDL._AC_SR255,340_.jpg",
+      "sizes": [5,12]
+    },
+    {
+      "name": "Crocs",
+      "price": 50,
+      "imgUrl": "https://m.media-amazon.com/images/I/61KOq1AKJlS._AC_SR255,340_.jpg",
+      "sizes": [5,12]
+    },
+    {
+      "name": "Dansko",
+      "price": 135,
+      "imgUrl": "https://m.media-amazon.com/images/I/711NXmiCpDL._AC_SR255,340_.jpg",
+      "sizes": [5,12]
+    },
+    {
+      "name": "Crocs",
+      "price": 50,
+      "imgUrl": "https://m.media-amazon.com/images/I/61KOq1AKJlS._AC_SR255,340_.jpg",
+      "sizes": [5,12]
+    },
+    {
+      "name": "Dansko",
+      "price": 135,
+      "imgUrl": "https://m.media-amazon.com/images/I/711NXmiCpDL._AC_SR255,340_.jpg",
+      "sizes": [5,12]
+    },
+    {
+      "name": "Crocs",
+      "price": 50,
+      "imgUrl": "https://m.media-amazon.com/images/I/61KOq1AKJlS._AC_SR255,340_.jpg",
+      "sizes": [5,12]
+    },
+    {
+      "name": "Dansko",
+      "price": 135,
+      "imgUrl": "https://m.media-amazon.com/images/I/711NXmiCpDL._AC_SR255,340_.jpg",
+      "sizes": [5,12]
+    },
+    {
+      "name": "Crocs",
+      "price": 50,
+      "imgUrl": "https://m.media-amazon.com/images/I/61KOq1AKJlS._AC_SR255,340_.jpg",
+      "sizes": [5,12]
+    }
+  ],
+  "kids": [
+    {
+      "name": "adidas Kids",
+      "price": 55,
+      "imgUrl": "https://m.media-amazon.com/images/I/815+1eV9KjS._AC_SR255,340_.jpg",
+      "sizes": [1,13]
+    },
+    {
+      "name": "FortaRun",
+      "price": 50,
+      "imgUrl": "https://m.media-amazon.com/images/I/71jfDN6q6DS._AC_SR255,340_.jpg",
+      "sizes": [1,13]
+    },
+    {
+      "name": "adidas Kids",
+      "price": 55,
+      "imgUrl": "https://m.media-amazon.com/images/I/815+1eV9KjS._AC_SR255,340_.jpg",
+      "sizes": [1,13]
+    },
+    {
+      "name": "FortaRun",
+      "price": 50,
+      "imgUrl": "https://m.media-amazon.com/images/I/71jfDN6q6DS._AC_SR255,340_.jpg",
+      "sizes": [1,13]
+    },
+    {
+      "name": "adidas Kids",
+      "price": 55,
+      "imgUrl": "https://m.media-amazon.com/images/I/815+1eV9KjS._AC_SR255,340_.jpg",
+      "sizes": [1,13]
+    }
+  ]
 }

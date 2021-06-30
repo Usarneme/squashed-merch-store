@@ -33,23 +33,35 @@ function Navbar(props) {
 
   return (
     <div style={navbarStyles}>
-      <a type="submit" onClick={event => props.navigateTo(event, "home")} style={linkStyles} href='/'>
-        <div style={linkDivStyles}><GiConverseShoe id="icon" width="512" height="512" style={{ fontSize: '40px'}} /></div>
+      <a type="submit"
+        onClick={event => props.navigateTo(event, "home")}
+        style={linkStyles} href='/'
+      >
+        <div style={linkDivStyles}><GiConverseShoe style={{ fontSize: '40px'}} /></div>
         <span>Home</span>
       </a>
 
-      <a type="submit" onClick={event => props.navigateTo(event, "kids")} style={linkStyles} href='/kids'>
-        <div style={linkDivStyles}><GiSonicShoes id="icon" width="512" height="512" style={{ fontSize: '40px'}} /></div>
+      <a type="submit"
+        onClick={event => props.navigateTo(event, "kids")}
+        style={linkStyles} href='/kids'
+      >
+        <div style={linkDivStyles}><GiSonicShoes style={{ fontSize: '40px'}} /></div>
         <span>Kids</span>
       </a>
 
-      <a type="submit" onClick={event => props.navigateTo(event, "mens")} style={linkStyles} href='/mens'>
-        <div style={linkDivStyles}><GiConverseShoe id="icon" width="512" height="512" style={{ fontSize: '40px'}} /></div>
+      <a type="submit"
+        onClick={event => props.navigateTo(event, "mens")}
+        style={linkStyles} href='/mens'
+      >
+        <div style={linkDivStyles}><GiConverseShoe style={{ fontSize: '40px'}} /></div>
         <span>Mens</span>
       </a>
 
-      <a type="submit" onClick={event => props.navigateTo(event, "womens")} style={linkStyles} href='/womens'>
-        <div style={linkDivStyles}><GiConverseShoe id="icon" width="512" height="512" style={{ fontSize: '40px'}} /></div>
+      <a type="submit"
+        onClick={event => props.navigateTo(event, "womens")}
+        style={linkStyles} href='/womens'
+      >
+        <div style={linkDivStyles}><GiConverseShoe style={{ fontSize: '40px'}} /></div>
         <span>Womens</span>
       </a>
     </div>

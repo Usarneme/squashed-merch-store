@@ -130,6 +130,7 @@ table {
 
 html {
   font-size: 18px;
+  box-sizing: border-box;
 }
 
 body {
@@ -167,4 +168,8 @@ h4 {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  margin-bottom: 20px;
 }
