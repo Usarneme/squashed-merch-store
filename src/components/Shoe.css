@@ -1,16 +1,23 @@
 /* Shoe Styles */
 
 #shoe_0 {
-  width: 46% !important;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
-#shoe_1,
+/* #shoe_1,
 #shoe_2 {
-  width: 27% !important;
+  width: calc(25% - 15px) !important;
+}
+
+#shoe_1 > div > div > p,
+#shoe_2 > div > div > p {
+  font-size: 0.65rem;
+  padding: 0;
 }
 
 .shoe-unit {
-  width: 33%;
+  width: calc(33% - 30px);
   float: left;
   background-color: #fff;
   margin: 5px;
@@ -51,4 +58,4 @@
   width: 100%;
   display: block;
   font-weight: 500;
-}
+} */

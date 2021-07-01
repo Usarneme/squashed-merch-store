@@ -1,19 +1,17 @@
 import Shoe from './Shoe';
+import { v4 as uuid } from 'uuid';
 
 function ShoeList(props) {
   const shoesContainer = {
-    display: 'flex',
-    flex: '1',
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-    margin: '0 auto'
+    margin: '22px',
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, 1fr)',
+    gridGap: '10px'
   }
 
   return (
     <div style={shoesContainer}>
-      {props.shoes.map((shoe, index) => <Shoe shoe={shoe} id={index} />)}
+      {props.shoes.map((shoe, index) => <Shoe shoe={shoe} id={index} key={uuid()} />)}
     </div>
   )
 }

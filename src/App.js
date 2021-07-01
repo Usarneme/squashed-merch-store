@@ -14,8 +14,12 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentPage: 'home'
+      currentPage: this.getCurrentLocation()
     }
+  }
+
+  getCurrentLocation = () => {
+    return window.location.pathname.slice(1)
   }
 
   navigateTo = (event, location) => {
